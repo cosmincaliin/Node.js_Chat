@@ -4,7 +4,11 @@
 
 Este proyecto es una aplicación de chat en tiempo real desarrollada utilizando Node.js, Express y WebSockets (Socket.IO). Permite a los usuarios comunicarse en diferentes salas de chat con soporte para múltiples características interactivas.
 
-## Características
+### Intrucciones y expectativas requeridas:
+
+[https://bolder-equipment-678.notion.site/Xat-940a0da4892d46c7aa9a85d5e4ba213c](https://bolder-equipment-678.notion.site/Xat-940a0da4892d46c7aa9a85d5e4ba213c)
+
+## Características Cumplidas
 
 - **Nivell 1**: La aplicación compila y se ejecuta sin errores.
 - **Nivell 2**: Soporta múltiples clientes simultáneos. Los mensajes enviados desde una ventana son visibles en todas las demás.
@@ -13,7 +17,7 @@ Este proyecto es una aplicación de chat en tiempo real desarrollada utilizando 
 - **Nivell 5**: El creador de la sala se convierte automáticamente en administrador.
 - **Nivell 7**: Efectos visuales de fuegos artificiales cuando se envían mensajes, mejorando la experiencia interactiva del usuario.
 
-## Cómo iniciar
+## Cómo iniciar el proyecto y probarlo
 
 ### Prerrequisitos
 
