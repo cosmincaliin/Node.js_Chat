@@ -10,7 +10,7 @@ Este proyecto es una aplicación de chat en tiempo real desarrollada utilizando 
 - **Nivell 2**: Soporta múltiples clientes simultáneos. Los mensajes enviados desde una ventana son visibles en todas las demás.
 - **Nivell 3**: Los usuarios pueden identificarse con un nombre de usuario. El nombre se muestra junto a sus mensajes.
 - **Nivell 4**: Los usuarios pueden crear salas de chat. Los mensajes son visibles solo para los miembros que se han unido a la sala.
-- **Nivell 5**: El creador de la sala se convierte automáticamente en administrador. Puede designar otros administradores y realizar acciones administrativas como eliminar mensajes.
+- **Nivell 5**: El creador de la sala se convierte automáticamente en administrador.
 - **Nivell 7**: Efectos visuales de fuegos artificiales cuando se envían mensajes, mejorando la experiencia interactiva del usuario.
 
 ## Cómo iniciar
@@ -23,18 +23,24 @@ Antes de iniciar, asegúrate de tener Node.js y npm instalados en tu máquina.
 
 Clona el repositorio a tu máquina local:
 
-```git clone url_del_repositorio```
+```bash
+gh repo clone cosmincaliin/Node.js_Chat
+```
 
 Instala las dependencias necesarias:
 
-```cd nombre_del_directorio```
-```npm install```
+```bash
+cd Node.js_Chat
+npm install
+```
 
 ### Ejecutar la aplicación
 
 Para iniciar el servidor, ejecuta:
 
-```npm start```
+```bash
+node src/server.js
+```
 
 Abre tu navegador y visita `http://localhost:3000` para comenzar a chatear.
 
@@ -54,7 +60,7 @@ Distribuido bajo la Licencia MIT. Consulta `LICENSE` para más información.
 
 ## Contacto
 
-Tu Nombre - [@tu_twitter](https://twitter.com/tu_twitter)
+Tu Nombre - [@cosmincaliin](https://twitter.com/cosmincaliin)
 Email - example@example.com
-Proyecto Link: [https://github.com/tu_username/tu_repositorio](https://github.com/tu_username/tu_repositorio)
+Proyecto Link: [https://github.com/cosmincaliin/Node.js_Chat](https://github.com/cosmincaliin/Node.js_Chat)
 
