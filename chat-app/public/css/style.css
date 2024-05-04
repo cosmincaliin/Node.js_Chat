@@ -1,0 +1,86 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#chat-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; /* Asegúrate de que el contenedor no exceda el ancho de la pantalla */
+    display: flex;
+    padding: 10px;
+    background: #f8f9fa;
+}
+
+#chat-box {
+    position: absolute;
+    top: 40px; /* Ajustado para no solaparse con la navbar */
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: white;
+}
+
+#message-input, #username-input {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#send-button, #login-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#send-button:hover, #login-button:hover {
+    background-color: #0056b3;
+}
+/* Agregar estilos específicos para la navbar si es necesario */
+#navbar input, #navbar button {
+    margin-left: 10px;
+}
