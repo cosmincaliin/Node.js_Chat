@@ -24,7 +24,7 @@ Antes de iniciar, asegúrate de tener Node.js y npm instalados en tu máquina.
 Clona el repositorio a tu máquina local:
 
 ```bash
-gh repo clone cosmincaliin/Node.js_Chat
+git clone cosmincaliin/Node.js_Chat
 ```
 
 Instala las dependencias necesarias:
@@ -60,7 +60,6 @@ Distribuido bajo la Licencia MIT. Consulta `LICENSE` para más información.
 
 ## Contacto
 
-Tu Nombre - [@cosmincaliin](https://twitter.com/cosmincaliin)
-Email - example@example.com
-Proyecto Link: [https://github.com/cosmincaliin/Node.js_Chat](https://github.com/cosmincaliin/Node.js_Chat)
+Twitter / X - [@cosmincaliin](https://twitter.com/cosmincaliin)
+Github Link: [https://github.com/cosmincaliin/Node.js_Chat](https://github.com/cosmincaliin/Node.js_Chat)
 
