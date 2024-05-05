@@ -66,3 +66,11 @@ socket.on('chat message', function(data) {
     document.getElementById('chat-box').appendChild(item);
     document.getElementById('chat-box').scrollTop = document.getElementById('chat-box').scrollHeight;
 });
+document.getElementById('theme-toggle').addEventListener('change', function() {
+    if (this.checked) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+    }
+  });
+  
